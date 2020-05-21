@@ -25,11 +25,12 @@ Plug 'godlygeek/tabular'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'fisadev/vim-isort'
-Plug 'nvie/vim-flake8'
-Plug 'tell-k/vim-autopep8'
+" Plug 'nvie/vim-flake8'
+" Plug 'tell-k/vim-autopep8'
 Plug 'elzr/vim-json'
 Plug 'sheerun/vim-polyglot'
-Plug 'dense-analysis/ale'
+" Plug 'dense-analysis/ale'
+"
 " Track the engine.
 Plug 'SirVer/ultisnips'
 " Snippets are separated from the engine. Add this if you want them:
