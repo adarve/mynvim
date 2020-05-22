@@ -39,6 +39,11 @@ Plug 'honza/vim-snippets'
 Plug 'jpalardy/vim-slime'
 Plug 'mhinz/vim-startify'
 Plug 'rgrinberg/vim-ocaml'
+
+" Ranger
+Plug 'francoiscabrol/ranger.vim'
+Plug 'rbgrouleff/bclose.vim'
+
 call plug#end()
 
 source $HOME/.config/nvim/config/settings.vim
@@ -53,4 +58,5 @@ source $HOME/.config/nvim/config/vim-slime.vim
 source $HOME/.config/nvim/config/deoplete.vim
 " source $HOME/.config/nvim/config/python-mode.vim
 source $HOME/.config/nvim/config/fzf.vim
+source $HOME/.config/nvim/config/ranger.vim
 

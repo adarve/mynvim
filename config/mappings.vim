@@ -1,3 +1,5 @@
+let mapleader = " "
+
 " Quick navigation between splits
 noremap <c-j> <c-w>j
 noremap <c-k> <c-w>k
@@ -42,6 +44,10 @@ noremap <leader>g :Ag<CR>
 noremap <leader>l :Tags<CR>
 
 noremap <leader>s :Snippets<CR>
+
+" Ranger
+noremap <leader>F :Ranger<CR>
+noremap <leader>N :RangerNewTab<CR>
 
 " noremap <leader>t :call fzf#vim#tags('^' . expand('<cword>'), {'options': '--exact --select-1 --exit-0 +i'})<CR>
 noremap <leader>t :call fzf#vim#tags(expand('<cword>'))<CR>
