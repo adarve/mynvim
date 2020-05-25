@@ -44,6 +44,8 @@ Plug 'rgrinberg/vim-ocaml'
 Plug 'francoiscabrol/ranger.vim'
 Plug 'rbgrouleff/bclose.vim'
 
+Plug 'rust-lang/rust.vim'
+
 call plug#end()
 
 source $HOME/.config/nvim/config/settings.vim
