@@ -41,10 +41,12 @@ Plug 'mhinz/vim-startify'
 Plug 'rgrinberg/vim-ocaml'
 
 " Ranger
-Plug 'francoiscabrol/ranger.vim'
-Plug 'rbgrouleff/bclose.vim'
+" Plug 'francoiscabrol/ranger.vim'
+" Plug 'rbgrouleff/bclose.vim'
 
 Plug 'rust-lang/rust.vim'
+
+Plug 'voldikss/vim-floaterm'
 
 call plug#end()
 
@@ -60,5 +62,6 @@ source $HOME/.config/nvim/config/vim-slime.vim
 source $HOME/.config/nvim/config/deoplete.vim
 " source $HOME/.config/nvim/config/python-mode.vim
 source $HOME/.config/nvim/config/fzf.vim
-source $HOME/.config/nvim/config/ranger.vim
-
+" source $HOME/.config/nvim/config/ranger.vim
+source $HOME/.config/nvim/config/vim-startify.vim
+source $HOME/.config/nvim/config/vim-floaterm.vim

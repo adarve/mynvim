@@ -36,18 +36,19 @@ nnoremap <F9> :call asyncrun#quickfix_toggle(8)<cr>
 
 " FZF
 noremap <leader>f :Files<CR>
+" nnoremap <leader>f :call fzf#vim#files(FindRootDirectory())<cr>
 
-noremap <leader>b :Buffers<CR>
+nnoremap <leader>b :Buffers<CR>
 
-noremap <leader>g :Ag<CR>
+nnoremap <leader>t :Ag<CR>
 
-noremap <leader>l :Tags<CR>
+" noremap <leader>l :Tags<CR>
+nnoremap <leader>l :call fzf#vim#tags(expand('<cword>'))<CR>
 
-noremap <leader>s :Snippets<CR>
+nnoremap <leader>s :Snippets<CR>
 
 " Ranger
-noremap <leader>F :Ranger<CR>
-noremap <leader>N :RangerNewTab<CR>
+nnoremap <leader>F :Ranger<CR>
+nnoremap <leader>N :RangerNewTab<CR>
 
 " noremap <leader>t :call fzf#vim#tags('^' . expand('<cword>'), {'options': '--exact --select-1 --exit-0 +i'})<CR>
-noremap <leader>t :call fzf#vim#tags(expand('<cword>'))<CR>
