@@ -5,9 +5,9 @@ let g:floaterm_keymap_next   = '<F9>'
 let g:floaterm_keymap_toggle = '<F12>'
 
 " Set floaterm window's background to black
-hi Floaterm guibg=black
+hi Floaterm guibg=blue
 " Set floating window border line color to cyan, and background to orange
-hi FloatermBorder guibg=orange guifg=cyan
+" hi FloatermBorder guibg=orange guifg=cyan
 
 command! FZF FloatermNew fzf
 

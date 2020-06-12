@@ -4,7 +4,8 @@
 call plug#begin('~/.config/nvim/plugged')
 Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree'
-Plug 'scrooloose/syntastic'
+" Plug 'scrooloose/syntastic'
+Plug 'dense-analysis/ale'
 Plug 'scrooloose/nerdcommenter'
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
@@ -22,14 +23,17 @@ Plug 'skywind3000/asyncrun.vim'
 " Plug 'klen/python-mode'
 Plug 'plasticboy/vim-markdown'
 Plug 'godlygeek/tabular'
+
+" fzf
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
+
+" isort for imports
 Plug 'fisadev/vim-isort'
 " Plug 'nvie/vim-flake8'
 " Plug 'tell-k/vim-autopep8'
 Plug 'elzr/vim-json'
 Plug 'sheerun/vim-polyglot'
-" Plug 'dense-analysis/ale'
 "
 " Track the engine.
 Plug 'SirVer/ultisnips'
@@ -41,20 +45,25 @@ Plug 'mhinz/vim-startify'
 Plug 'rgrinberg/vim-ocaml'
 
 " Ranger
-" Plug 'francoiscabrol/ranger.vim'
-" Plug 'rbgrouleff/bclose.vim'
+Plug 'francoiscabrol/ranger.vim'
+Plug 'rbgrouleff/bclose.vim'
 
+" Rust
 Plug 'rust-lang/rust.vim'
 
+" Vim floaterm
 Plug 'voldikss/vim-floaterm'
 
+" Asyncrun
+Plug 'skywind3000/asyncrun.vim'
 call plug#end()
 
 source $HOME/.config/nvim/config/settings.vim
 source $HOME/.config/nvim/config/mappings.vim
 source $HOME/.config/nvim/config/tagbar.vim
 source $HOME/.config/nvim/config/nerdtree.vim
-source $HOME/.config/nvim/config/syntastic.vim
+" source $HOME/.config/nvim/config/syntastic.vim
+source $HOME/.config/nvim/config/ale.vim
 source $HOME/.config/nvim/config/nerdcommenter.vim
 source $HOME/.config/nvim/config/vim-colors-solarized.vim
 source $HOME/.config/nvim/config/vim-ocaml.vim
