@@ -56,6 +56,8 @@ Plug 'voldikss/vim-floaterm'
 
 " Asyncrun
 Plug 'skywind3000/asyncrun.vim'
+
+Plug 'bkad/camelcasemotion'
 call plug#end()
 
 source $HOME/.config/nvim/config/settings.vim
@@ -74,3 +76,4 @@ source $HOME/.config/nvim/config/fzf.vim
 " source $HOME/.config/nvim/config/ranger.vim
 source $HOME/.config/nvim/config/vim-startify.vim
 source $HOME/.config/nvim/config/vim-floaterm.vim
+source $HOME/.config/nvim/config/camelcasemotion.vim
