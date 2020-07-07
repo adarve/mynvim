@@ -52,3 +52,9 @@ nnoremap <leader>F :Ranger<CR>
 nnoremap <leader>N :RangerNewTab<CR>
 
 " noremap <leader>t :call fzf#vim#tags('^' . expand('<cword>'), {'options': '--exact --select-1 --exit-0 +i'})<CR>
+
+" Goyo
+nnoremap <leader>g :Goyo<CR>
+
+" Reset search highlight
+nnoremap <Leader><space> :noh<cr>

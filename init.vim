@@ -11,7 +11,6 @@ Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
 Plug 'majutsushi/tagbar'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'altercation/vim-colors-solarized'
 if has('nvim')
   Plug 'shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 else
@@ -57,7 +56,22 @@ Plug 'voldikss/vim-floaterm'
 " Asyncrun
 Plug 'skywind3000/asyncrun.vim'
 
-Plug 'bkad/camelcasemotion'
+" Plug 'bkad/camelcasemotion'
+
+" Folding
+Plug 'konfekt/fastfold'
+Plug 'tmhedberg/simpylfold'
+
+" Tags
+Plug 'craigemery/vim-autotag'
+
+" Focus mode
+Plug 'junegunn/goyo.vim'
+
+" Color schemes
+Plug 'junegunn/seoul256.vim'
+" Plug 'altercation/vim-colors-solarized'
+
 call plug#end()
 
 source $HOME/.config/nvim/config/settings.vim
@@ -67,7 +81,6 @@ source $HOME/.config/nvim/config/nerdtree.vim
 " source $HOME/.config/nvim/config/syntastic.vim
 source $HOME/.config/nvim/config/ale.vim
 source $HOME/.config/nvim/config/nerdcommenter.vim
-source $HOME/.config/nvim/config/vim-colors-solarized.vim
 source $HOME/.config/nvim/config/vim-ocaml.vim
 source $HOME/.config/nvim/config/vim-slime.vim
 source $HOME/.config/nvim/config/deoplete.vim
@@ -76,4 +89,7 @@ source $HOME/.config/nvim/config/fzf.vim
 " source $HOME/.config/nvim/config/ranger.vim
 source $HOME/.config/nvim/config/vim-startify.vim
 source $HOME/.config/nvim/config/vim-floaterm.vim
-source $HOME/.config/nvim/config/camelcasemotion.vim
+" source $HOME/.config/nvim/config/camelcasemotion.vim
+source $HOME/.config/nvim/config/goyo.vim
+source $HOME/.config/nvim/config/seoul256.vim
+" source $HOME/.config/nvim/config/vim-colors-solarized.vim
