@@ -72,6 +72,8 @@ Plug 'junegunn/goyo.vim'
 Plug 'junegunn/seoul256.vim'
 " Plug 'altercation/vim-colors-solarized'
 
+" Vimwiki
+Plug 'vimwiki/vimwiki'
 call plug#end()
 
 source $HOME/.config/nvim/config/settings.vim
