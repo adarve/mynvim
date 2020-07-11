@@ -26,6 +26,7 @@ nnoremap <leader>n :NERDTreeFind<CR>
 
 " Tagbar
 nnoremap <leader>L :TagbarToggle<CR>
+" nmap <F8> :TagbarToggle<CR>
 
 " Manual pyflakes
 nnoremap <leader>p :!pyflakes %<CR>
