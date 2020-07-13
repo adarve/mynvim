@@ -32,7 +32,7 @@ nnoremap <leader>L :TagbarToggle<CR>
 nnoremap <leader>p :!pyflakes %<CR>
 
 " pre-commit integration
-map <leader>r :AsyncRun pre-commit run<CR>
+" map <leader>r :AsyncRun pre-commit run<CR>
 nnoremap <F9> :call asyncrun#quickfix_toggle(8)<cr>
 
 " FZF
@@ -40,16 +40,18 @@ noremap <leader>f :Files<CR>
 " nnoremap <leader>f :call fzf#vim#files(FindRootDirectory())<cr>
 
 nnoremap <leader>b :Buffers<CR>
+nnoremap <leader>l :Lines<CR>
 
-nnoremap <leader>t :Ag<CR>
+" nnoremap <leader>t :Rg<CR>
+nnoremap <leader>t :Rg<CR>
 
 " noremap <leader>l :Tags<CR>
-nnoremap <leader>l :call fzf#vim#tags(expand('<cword>'))<CR>
+nnoremap <leader>T :call fzf#vim#tags(expand('<cword>'))<CR>
 
 nnoremap <leader>s :Snippets<CR>
 
 " Ranger
-nnoremap <leader>F :Ranger<CR>
+" nnoremap <leader>F :Ranger<CR>
 nnoremap <leader>N :RangerNewTab<CR>
 
 " noremap <leader>t :call fzf#vim#tags('^' . expand('<cword>'), {'options': '--exact --select-1 --exit-0 +i'})<CR>
