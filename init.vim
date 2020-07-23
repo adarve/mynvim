@@ -74,6 +74,9 @@ Plug 'junegunn/seoul256.vim'
 
 " Vimwiki
 Plug 'vimwiki/vimwiki'
+
+" Markdown
+
 call plug#end()
 
 source $HOME/.config/nvim/config/settings.vim
@@ -95,3 +98,4 @@ source $HOME/.config/nvim/config/vim-floaterm.vim
 source $HOME/.config/nvim/config/goyo.vim
 source $HOME/.config/nvim/config/seoul256.vim
 " source $HOME/.config/nvim/config/vim-colors-solarized.vim
+source $HOME/.config/nvim/config/ipdb-breakpoint.vim
