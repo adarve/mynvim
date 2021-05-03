@@ -59,3 +59,6 @@ nnoremap <leader>g :Goyo<CR>
 
 " Reset search highlight
 nnoremap <Leader><space> :noh<cr>
+
+" vim isort
+let g:vim_isort_map = '<C-I>'
