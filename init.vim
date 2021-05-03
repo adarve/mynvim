@@ -80,6 +80,7 @@ Plug 'itchyny/vim-cursorword'
 " Plug 'yuttie/comfortable-motion.vim'
 
 Plug 'jszakmeister/vim-togglecursor'
+" Markdown
 
 call plug#end()
 
@@ -103,3 +104,4 @@ source $HOME/.config/nvim/config/goyo.vim
 source $HOME/.config/nvim/config/seoul256.vim
 " source $HOME/.config/nvim/config/vim-colors-solarized.vim
 source $HOME/.config/nvim/config/vimwiki.vim
+source $HOME/.config/nvim/config/ipdb-breakpoint.vim

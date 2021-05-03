@@ -18,6 +18,7 @@ set number
 set modifiable
 set cursorline              " highlight current line
 set cursorcolumn            " highlight current column
+set so=10
 syntax on                   " syntax highlighting
 
 set clipboard+=unnamedplus
