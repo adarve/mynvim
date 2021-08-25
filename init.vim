@@ -24,7 +24,7 @@ Plug 'plasticboy/vim-markdown'
 Plug 'godlygeek/tabular'
 
 " fzf
-Plug 'junegunn/fzf'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 " isort for imports
@@ -41,7 +41,7 @@ Plug 'honza/vim-snippets'
 " Plug 'ludovicchabant/vim-gutentags'
 Plug 'jpalardy/vim-slime'
 Plug 'mhinz/vim-startify'
-Plug 'rgrinberg/vim-ocaml'
+" Plug 'rgrinberg/vim-ocaml'
 
 " Ranger
 Plug 'francoiscabrol/ranger.vim'
@@ -51,6 +51,7 @@ Plug 'rbgrouleff/bclose.vim'
 Plug 'rust-lang/rust.vim'
 
 " Vim floaterm
+Plug 'voldikss/fzf-floaterm'
 Plug 'voldikss/vim-floaterm'
 
 " Asyncrun
@@ -59,8 +60,8 @@ Plug 'skywind3000/asyncrun.vim'
 " Plug 'bkad/camelcasemotion'
 
 " Folding
-Plug 'konfekt/fastfold'
-Plug 'tmhedberg/simpylfold'
+" Plug 'konfekt/fastfold'
+" Plug 'tmhedberg/simpylfold'
 
 " Tags
 Plug 'craigemery/vim-autotag'
@@ -80,6 +81,10 @@ Plug 'itchyny/vim-cursorword'
 " Plug 'yuttie/comfortable-motion.vim'
 
 Plug 'jszakmeister/vim-togglecursor'
+
+" Multiple cursors
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+
 " Markdown
 
 call plug#end()
@@ -91,7 +96,7 @@ source $HOME/.config/nvim/config/nerdtree.vim
 " source $HOME/.config/nvim/config/syntastic.vim
 source $HOME/.config/nvim/config/ale.vim
 source $HOME/.config/nvim/config/nerdcommenter.vim
-source $HOME/.config/nvim/config/vim-ocaml.vim
+" source $HOME/.config/nvim/config/vim-ocaml.vim
 source $HOME/.config/nvim/config/vim-slime.vim
 source $HOME/.config/nvim/config/deoplete.vim
 " source $HOME/.config/nvim/config/python-mode.vim

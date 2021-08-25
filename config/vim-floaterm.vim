@@ -3,13 +3,16 @@ let g:floaterm_keymap_new    = '<F7>'
 let g:floaterm_keymap_prev   = '<F8>'
 let g:floaterm_keymap_next   = '<F9>'
 let g:floaterm_keymap_toggle = '<F12>'
+" let g:floaterm_wintype = 'split'
+let g:floaterm_width = 0.9
+let g:floaterm_height = 0.9
 
 " Set floaterm window's background to black
-hi Floaterm guibg=blue
+hi Floaterm guibg=gray
 " Set floating window border line color to cyan, and background to orange
-" hi FloatermBorder guibg=orange guifg=cyan
+hi FloatermBorder guibg=orange guifg=cyan
 
-command! FZF FloatermNew fzf
+" command! FZF FloatermNew fzf
 
 " function! s:runner_proc(opts)
 "   let curr_bufnr = floaterm#curr()

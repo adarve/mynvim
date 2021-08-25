@@ -36,19 +36,24 @@ nnoremap <leader>p :!pyflakes %<CR>
 nnoremap <F9> :call asyncrun#quickfix_toggle(8)<cr>
 
 " FZF
-noremap <leader>f :Files<CR>
-" nnoremap <leader>f :call fzf#vim#files(FindRootDirectory())<cr>
+nnoremap <leader>f :GFiles<CR>
+" nnoremap <leader>F :call fzf#vim#files(FindRootDirectory())<cr>
 
 nnoremap <leader>b :Buffers<CR>
 nnoremap <leader>l :Lines<CR>
 
 " nnoremap <leader>t :Rg<CR>
-nnoremap <leader>t :Rg<CR>
+nnoremap <leader>t :Rg <C-r>=expand('<cword>')<CR>
 
 " noremap <leader>l :Tags<CR>
 nnoremap <leader>T :call fzf#vim#tags(expand('<cword>'))<CR>
 
 nnoremap <leader>s :Snippets<CR>
+
+nnoremap <leader>h :History<CR>
+nnoremap <leader>m :Marks<CR>
+
+nnoremap <leader>c :BCommits<CR>
 
 " Ranger
 " nnoremap <leader>F :Ranger<CR>

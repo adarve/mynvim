@@ -24,9 +24,9 @@ syntax on                   " syntax highlighting
 set clipboard+=unnamedplus
 
 " File types
-au! BufNewFile,BufReadPost *.{yaml,yml} set filetype=yaml foldmethod=indent
-autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
-au! BufNewFile,BufReadPost *.json set filetype=json foldmethod=indent
-autocmd FileType json setlocal ts=2 sts=2 sw=2 expandtab
-autocmd FileType javascript setlocal ts=2 sts=2 sw=2 expandtab foldmethod=indent
+" au! BufNewFile,BufReadPost *.{yaml,yml} set filetype=yaml foldmethod=indent
+" autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+" au! BufNewFile,BufReadPost *.json set filetype=json foldmethod=indent
+" autocmd FileType json setlocal ts=2 sts=2 sw=2 expandtab
+" autocmd FileType javascript setlocal ts=2 sts=2 sw=2 expandtab foldmethod=indent
 
