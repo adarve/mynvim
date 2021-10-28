@@ -44,8 +44,7 @@ Plug 'mhinz/vim-startify'
 " Plug 'rgrinberg/vim-ocaml'
 
 " Ranger
-Plug 'francoiscabrol/ranger.vim'
-Plug 'rbgrouleff/bclose.vim'
+" Plug 'francoiscabrol/ranger.vim'
 
 " Rust
 Plug 'rust-lang/rust.vim'
@@ -60,8 +59,8 @@ Plug 'skywind3000/asyncrun.vim'
 " Plug 'bkad/camelcasemotion'
 
 " Folding
-" Plug 'konfekt/fastfold'
-" Plug 'tmhedberg/simpylfold'
+Plug 'konfekt/fastfold'
+Plug 'tmhedberg/simpylfold'
 
 " Tags
 Plug 'craigemery/vim-autotag'
@@ -86,11 +85,15 @@ Plug 'jszakmeister/vim-togglecursor'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
 " Markdown
+"
+" EasyMOtion
+Plug 'easymotion/vim-easymotion'
+
+Plug 'rbgrouleff/bclose.vim'
 
 call plug#end()
 
 source $HOME/.config/nvim/config/settings.vim
-source $HOME/.config/nvim/config/mappings.vim
 source $HOME/.config/nvim/config/tagbar.vim
 source $HOME/.config/nvim/config/nerdtree.vim
 " source $HOME/.config/nvim/config/syntastic.vim
@@ -110,3 +113,6 @@ source $HOME/.config/nvim/config/seoul256.vim
 " source $HOME/.config/nvim/config/vim-colors-solarized.vim
 source $HOME/.config/nvim/config/vimwiki.vim
 source $HOME/.config/nvim/config/ipdb-breakpoint.vim
+source $HOME/.config/nvim/config/vim-snippets.vim
+source $HOME/.config/nvim/config/mappings.vim
+source $HOME/.config/nvim/config/neovide.vim

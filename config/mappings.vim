@@ -68,4 +68,5 @@ nnoremap <leader>g :Goyo<CR>
 nnoremap <Leader><space> :noh<cr>
 
 " vim isort
-let g:vim_isort_map = '<C-I>'
+" let g:vim_isort_map = '<M-i>'
+nnoremap <leader>i :Isort<CR>
