@@ -37,7 +37,7 @@ Plug 'sheerun/vim-polyglot'
 " Track the engine.
 Plug 'SirVer/ultisnips'
 " Snippets are separated from the engine. Add this if you want them:
-Plug 'honza/vim-snippets'
+" Plug 'honza/vim-snippets'
 " Plug 'ludovicchabant/vim-gutentags'
 Plug 'jpalardy/vim-slime'
 Plug 'mhinz/vim-startify'
@@ -91,6 +91,18 @@ Plug 'easymotion/vim-easymotion'
 
 Plug 'rbgrouleff/bclose.vim'
 
+" lsp
+Plug 'neovim/nvim-lspconfig'
+" completion
+Plug 'hrsh7th/nvim-compe'
+
+" Flutter
+Plug 'nvim-lua/plenary.nvim'
+Plug 'akinsho/flutter-tools.nvim'
+
+" Github copilot
+Plug 'github/copilot.vim'
+
 call plug#end()
 
 source $HOME/.config/nvim/config/settings.vim
@@ -113,6 +125,12 @@ source $HOME/.config/nvim/config/seoul256.vim
 " source $HOME/.config/nvim/config/vim-colors-solarized.vim
 source $HOME/.config/nvim/config/vimwiki.vim
 source $HOME/.config/nvim/config/ipdb-breakpoint.vim
-source $HOME/.config/nvim/config/vim-snippets.vim
+" source $HOME/.config/nvim/config/vim-snippets.vim
 source $HOME/.config/nvim/config/mappings.vim
 source $HOME/.config/nvim/config/neovide.vim
+source $HOME/.config/nvim/config/lsp-config.vim
+source $HOME/.config/nvim/config/compe-config.vim
+
+lua << EOF
+  require("flutter-tools").setup{} -- use defaults
+EOF
