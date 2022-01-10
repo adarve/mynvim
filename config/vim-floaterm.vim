@@ -4,13 +4,16 @@ let g:floaterm_keymap_prev   = '<F8>'
 let g:floaterm_keymap_next   = '<F9>'
 let g:floaterm_keymap_toggle = '<F12>'
 " let g:floaterm_wintype = 'split'
-let g:floaterm_width = 0.9
+let g:floaterm_width = 1.0
 let g:floaterm_height = 0.9
+let g:floaterm_opener = 'tabe'
+
+" let g:floaterm_autoinsert = 'false'
 
 " Set floaterm window's background to black
-hi Floaterm guibg=gray
+" hi Floaterm guibg=black
 " Set floating window border line color to cyan, and background to orange
-hi FloatermBorder guibg=orange guifg=cyan
+" hi FloatermBorder guibg=orange guifg=cyan
 
 " command! FZF FloatermNew fzf
 

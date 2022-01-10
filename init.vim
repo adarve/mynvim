@@ -103,6 +103,10 @@ Plug 'akinsho/flutter-tools.nvim'
 " Github copilot
 Plug 'github/copilot.vim'
 
+" Telescope
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+
 call plug#end()
 
 source $HOME/.config/nvim/config/settings.vim
@@ -130,6 +134,7 @@ source $HOME/.config/nvim/config/mappings.vim
 source $HOME/.config/nvim/config/neovide.vim
 source $HOME/.config/nvim/config/lsp-config.vim
 source $HOME/.config/nvim/config/compe-config.vim
+source $HOME/.config/nvim/config/telescope.vim
 
 lua << EOF
   require("flutter-tools").setup{} -- use defaults
